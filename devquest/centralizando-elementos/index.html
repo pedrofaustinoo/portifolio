@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Centralização no CSS</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>Centralização no CSS</h1>
+
+  <!-- 1. Centralização de texto -->
+  <section class="texto">
+    <h2>1. text-align: center</h2>
+    <p class="bloco">Este texto está centralizado horizontalmente.</p>
+  </section>
+
+  <!-- 2. Centralização com margin auto -->
+  <section class="margin-auto-wrapper">
+    <h2>2. margin: auto</h2>
+    <div class="bloco margin-auto">Bloco centralizado com largura fixa.</div>
+  </section>
+
+  <!-- 3. Centralização com position + transform -->
+  <section class="posicionamento-wrapper">
+    <h2 style="text-align: center;">3. position + transform</h2>
+    <div class="bloco position-transform">Centro da tela!</div>
+  </section>
+
+  <!-- 4. Centralização com Flexbox -->
+  <section class="flex-container">
+    <div class="bloco">Centralizado com Flexbox</div>
+  </section>
+
+</body>
+</html>

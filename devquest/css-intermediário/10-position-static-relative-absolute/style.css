@@ -1,0 +1,58 @@
+    body {
+      font-family: sans-serif;
+      padding: 20px;
+    }
+
+    h2 {
+      margin-top: 40px;
+    }
+
+    .box {
+      width: 200px;
+      height: 200px;
+      color: white;
+      text-align: center;
+      line-height: 200px;
+      margin-bottom: 20px;
+    }
+
+    .static {
+      background-color: crimson;
+      position: static;
+    }
+
+    .relative {
+      background-color: coral;
+      position: relative;
+      left: 100px;
+    }
+
+    .absolute {
+      background-color: darkcyan;
+      position: absolute;
+      left: 160px;
+      top: 40px;
+    }
+
+    .relative-container {
+      position: relative;
+      width: 350px;
+      height: 350px;
+      background-color: gray;
+      margin-top: 40px;
+    }
+
+    .absolute-child {
+      position: absolute;
+      width: 150px;
+      height: 150px;
+      background-color: darkcyan;
+      top: 20px;
+      left: 50px;
+      line-height: 150px;
+    }
+
+    .note {
+      font-size: 14px;
+      color: #555;
+    }

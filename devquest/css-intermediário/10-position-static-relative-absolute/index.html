@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Guia CSS: Position</title>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+  <h1>Guia Visual: position static, relative e absolute</h1>
+
+  <h2>1. static (valor padrão)</h2>
+  <div class="box static">static</div>
+
+  <h2>2. relative (deslocado 100px para a direita)</h2>
+  <div class="box relative">relative</div>
+
+  <h2>3. absolute (fora do fluxo, 160px da esquerda, 40px do topo)</h2>
+  <div class="box absolute">absolute</div>
+
+  <h2>4. absolute com relative como pai</h2>
+  <div class="relative-container">
+    <div class="absolute-child">absolute com pai</div>
+  </div>
+  <p class="note">O bloco azul é posicionado em relação ao container cinza (que está com <code>position: relative</code>).</p>
+
+</body>
+</html>

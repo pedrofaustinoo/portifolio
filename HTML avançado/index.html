@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Imagem Responsiva com Picture</title>
+  <link rel="stylesheet" href="style.css">
+  
+</head>
+<body>
+  <h1>Teste da Tag &lt;picture&gt;</h1>
+
+  <picture>
+    <source media="(min-width: 1024px)" srcset="img/img-grande.jpg">
+    <source media="(min-width: 768px)" srcset="img/img-média.jpg">
+    <img src="img/img-pequena.jpg" alt="Imagem responsiva de exemplo">
+  </picture>
+
+  <p>Redimensione a janela do navegador para ver a troca de imagem conforme o tamanho da tela.</p>
+</body>
+</html>
