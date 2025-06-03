@@ -113,7 +113,6 @@ body {
   display: flex;
   gap: 20px;
   align-items: center;
-  flex-wrap: wrap;
 }
 
 .foto {
@@ -121,7 +120,7 @@ body {
   height: 150px;
   background-color: #555;
   border-radius: 50%;
-  background-image: url(img/Design\ sem\ nome.png);
+  background-image: url(/teste-portifolio/img/Design\ sem\ nome.png);
   background-size: cover;
   background-position: center;
   flex-shrink: 0;
@@ -131,12 +130,15 @@ body {
 .texto h3 {
   color: #00bfa6;
   margin-bottom: 10px;
+  font-size: 25px;
 }
 
 .texto p {
   color: #ccc;
   font-size: 0.95rem;
   line-height: 1.5;
+  padding: 10px;
+  text-align: justify;
 }
 
 .redes-sociais a {
