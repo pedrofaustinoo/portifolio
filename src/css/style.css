@@ -1,0 +1,202 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #1a1a1a;
+  color: #e0e0e0;
+  display: flex;
+  min-height: 100vh;
+}
+
+/* Sidebar aprimorada */
+.sidebar {
+  width: 250px;
+  background: linear-gradient(135deg, #005c72, #0f766e);
+  padding: 30px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 2px 0 10px rgba(0, 0, 0, 0.3);
+  border-right: 5px solid #00bfa6;
+}
+
+.sidebar .profile h2 {
+  font-size: 1.4rem;
+  color: #ffffff;
+}
+
+.sidebar .profile p {
+  color: #d0d0d0;
+  font-size: 0.9rem;
+}
+
+.sidebar nav ul {
+  list-style: none;
+  margin-top: 30px;
+  width: 100%;
+}
+
+.sidebar nav li {
+  margin: 15px 0;
+}
+
+.sidebar nav a {
+  text-decoration: none;
+  color: #ffffff;
+  background-color: rgba(255, 255, 255, 0.05);
+  padding: 10px 15px;
+  display: block;
+  border-radius: 8px;
+  transition: background 0.3s ease;
+  text-align: center;
+}
+
+.sidebar nav a:hover {
+  background-color: rgba(255, 255, 255, 0.15);
+}
+
+/* Conteúdo principal */
+.conteudo {
+  flex: 1;
+  padding: 40px;
+}
+
+.destaque {
+  background-color: #262626;
+  border-radius: 10px;
+  padding: 40px;
+  text-align: center;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  margin-bottom: 40px;
+}
+
+.destaque h1 {
+  font-size: 2.5rem;
+  color: #00bfa6;
+  margin-bottom: 10px;
+}
+
+.meu-nome {
+  color: #ff4081;
+  font-weight: 800;
+}
+
+.sub {
+  font-size: 1.1rem;
+  color: #ccc;
+  margin-bottom: 20px;
+}
+
+.btn-destaque {
+  background-color: #00bfa6;
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: background 0.3s;
+}
+
+.btn-destaque:hover {
+  background-color: #009e88;
+}
+
+/* Sobre */
+#sobre {
+  margin-top: 40px;
+}
+
+.card-sobre {
+  background: #2a2a2a;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.foto {
+  width: 150px;
+  height: 150px;
+  background-color: #555;
+  border-radius: 50%;
+  background-image: url(/teste-portifolio/img/Design\ sem\ nome.png);
+  background-size: cover;
+  background-position: center;
+  flex-shrink: 0;
+  display: inline;
+}
+
+.texto h3 {
+  color: #00bfa6;
+  margin-bottom: 10px;
+  font-size: 25px;
+}
+
+.texto p {
+  color: #ccc;
+  font-size: 0.95rem;
+  line-height: 1.5;
+  padding: 10px;
+  text-align: justify;
+}
+
+.redes-sociais a {
+  margin-right: 15px;
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: #00bfa6;
+  transition: transform 0.3s ease;
+}
+
+.redes-sociais a:hover {
+  transform: scale(1.2);
+  color: #ff4081;
+}
+
+@media (max-width: 768px) {
+  .sidebar {
+    display: none;
+  }
+
+  .conteudo {
+    padding: 20px;
+  }
+
+  .card-sobre {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+.contato-rodape {
+  margin-top: auto;
+  text-align: center;
+  padding: 40px 20px;
+  background-color: #1a1a1a;
+}
+
+.contato-rodape h2 {
+  color: #00bfa6;
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.icones-contato {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  font-size: 1.8rem;
+  flex-wrap: wrap;
+}
+
+.icones-contato a {
+  color: #ccc;
+  transition: transform 0.3s ease, color 0.3s ease, text-shadow 0.3s ease;
+}
+
+.icones-contato a:hover {
+  transform: scale(1.2);
+  color: #00bfa6;
+  text-shadow: 0 0 10px #00bfa6;
+}
