@@ -8,8 +8,8 @@ body {
 
 .container {
   width: 90%;
-  max-width: 1100px;
   margin: 0 auto;
+  max-width: 1200px;
 }
 
 /* ======== HEADER ======== */
@@ -86,7 +86,7 @@ body {
 
 /* ======== HERO ======== */
 .hero {
-  min-height: 90vh;
+  min-height: 70vh;
   display: flex;
   align-items: center;
   padding-top: 80px;
@@ -114,17 +114,18 @@ body {
 .about-container {
   display: flex;
   gap: 2rem;
-  margin: 4rem 0;
+  margin: 4rem auto;
   align-items: center;
   justify-content: center;
+  width: 100%;
 }
 
 .about-photo {
   flex-shrink: 0;
-  width: 180px;
-  height: 180px;
-  border-radius: 50%;
-  background-image: url('../../img/Design\ sem\ nome.png');
+  width: 300px;
+  height: 300px;
+  border-radius: 30%;
+  background-image: url('../../img/foto.PNG');
   background-position: center;
   background-size: cover;
   box-shadow: 0 0 15px #e0e0e0;
@@ -151,6 +152,9 @@ body {
 
 .skills h2 {
   margin-bottom: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 
@@ -158,6 +162,8 @@ body {
   list-style: none;
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
   gap: 1rem 2rem;
   padding-left: 0;
 }
@@ -192,6 +198,8 @@ body {
   border-radius: 12px;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
+  display: flex;
+  flex-direction: column;
 }
 
 .project-card:hover {

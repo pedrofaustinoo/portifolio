@@ -30,9 +30,12 @@
   .about-container {
     flex-direction: column;
     text-align: center;
+    padding: 2rem;
   }
 
   .about-photo {
     margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
   }
 }
